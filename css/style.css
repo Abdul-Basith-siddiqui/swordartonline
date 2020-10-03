@@ -1,0 +1,134 @@
+/*
+ * General Styles
+*/
+
+
+body {
+ 
+  background: url('../images/647749.jpg') ;
+  width:100%
+  height:100%;
+  color:white;
+   
+ 
+
+  font-family: 'Open Sans', arial, sans-serif;
+}file:///C:/Users/who%20an%20i/Desktop/happy-birthday/happy-birthday/images/hero-image.png
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1,h2 {
+  font-family: 'Lobster', cursive;
+  color: skyblue;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h3{
+  font-family: 'Lobster', cursive;
+  color: teal;
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 15px;
+}
+h1 {
+
+  font-size: 40px;
+  padding-top: 18px;
+}
+
+h2 {
+  font-size: 32px;
+  padding-top: 18px;
+}
+
+a{
+  color: red;
+}
+
+figure{
+  display: inline-block;
+  margin:10px;
+}
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 1000px;
+  margin: 100px auto;
+  
+
+}
+.hero img{
+  width:100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+aside.left{
+  float: left;
+  margin: 15px;
+
+}
+aside.right{
+  /*float: right; */
+  margin: 15px;
+  
+
+
+}
+
+
+section.intro{
+  background: rgba(0, 0, 0, 0.9);
+  line-height: 0px;
+ 
+
+  padding-bottom: 40px;
+}
+section.intro, section.contact{
+ 
+  padding-bottom: 40px;
+}
+section.contact{
+  background: black;
+
+}
+
+footer{
+  background: rgba(0, 201, 111, 0.5);
+  text-align: center;
+
+}
+.reda{
+ color: :  rgba(255, 0, 0, 0.7)
+}
