@@ -11,3 +11,10 @@ aside.left,aside.right{
   text-align: center;
   float: inherit;
 }
+section.intro{
+  background: rgba(0, 0, 0, 0.9);
+  line-height: 0px;
+  word-spacing: 2px;
+  padding-bottom: 40px;
+}
+
